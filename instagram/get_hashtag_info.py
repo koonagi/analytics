@@ -19,7 +19,7 @@ def main():
     # ハッシュIDの取得
     hash_id = hashtag_id(business_account_id,query,token)
 
-    # ハッシュIDの取得
+    # ハッシュタグ 検索結果取得
     result = hashtag_info(hash_id,search_type,business_account_id,query,token,fields)
 
     # データの結合、重複排除
